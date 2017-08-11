@@ -1,0 +1,162 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Source Serif Pro', serif;
+}
+
+#about, #work {
+  height: 700px;
+}
+
+#contact {
+  height: 500px;
+}
+
+h1 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 28px;
+  color: #f94543;
+}
+
+h2 {
+  font-family:'Source Serif Pro', serif;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 28px;
+}
+
+h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.fourth-width {
+  width: 300px;
+  float: left;
+}
+
+/***** HEADER STYLES *****/
+header {
+    height: 700px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+}
+
+header h1{
+  padding: 50px 0;
+}
+
+nav {
+  float: right;
+  padding: 60px 40px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  font-family: 'Sourse Sans Pro', sans-serif;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-size: 16px;
+  color:#000;
+  padding-left: 80px;
+}
+
+header h2 {
+  width:1000px;
+  clear: both;
+  font-size:64px;
+  line-height:70px;
+  color:#000;
+  padding-top: 100px;
+
+}
+header h2 span {
+  color:#f94543;
+}
+
+header p {
+  width: 1000px;
+}
+
+
+/***** ABOUT STYLES *****/
+#about {
+  text-align: center;
+  background-color: #ede5f5;
+}
+#about .full-width{
+  padding-top: 100px;
+}
+
+#about img {
+  padding-bottom: 0px;
+}
+
+#about p {
+  padding: 0 35px;
+}
+
+/***** WORK STYLES *****/
+#work {
+  padding-top: 20px;
+}
+
+#work .full-width{
+  text-align: center;
+}
+
+#work .half-width{
+  text-align: left;
+}
+
+#work h3 {
+  padding-top: 40px;
+}
+
+#work p {
+  width: 540px;
+}
+
+
+/***** CONTACT STYLES *****/
+#contact {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 20px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
